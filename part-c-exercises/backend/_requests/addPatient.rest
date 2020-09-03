@@ -1,0 +1,10 @@
+post http://localhost:3001/api/patients
+Content-Type: application/json
+
+{
+  "name": "Peter Parker",
+  "dateOfBirth": "1962-08-15",
+  "ssn": "150862-124H",
+  "gender": "male",
+  "occupation": "student"
+}
